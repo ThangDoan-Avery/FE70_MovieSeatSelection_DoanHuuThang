@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import './BaiTapBookingTicket.css';
 import ThongTinDatGhe from './ThongTinDatGhe';
 import danhSachGheData from '../Data/danhSachGhe.json';
@@ -19,7 +19,7 @@ export default class BaiTapBookingTicket extends Component {
       <div
         className='bookingMovie'
         style={{
-          position: 'fixed',
+          // position: 'fixed',
           width: '100%',
           height: '100%',
           backgroundImage: "url('./image/bgmovie.jpg')",
@@ -29,7 +29,7 @@ export default class BaiTapBookingTicket extends Component {
         <div
           style={{
             backgroundColor: 'rgba(0,0,0,0.7)',
-            position: 'fixed',
+            // position: 'fixed',
             width: '100%',
             height: '100%',
           }}
@@ -44,7 +44,7 @@ export default class BaiTapBookingTicket extends Component {
                 <div
                   className='mt-1'
                   style={{
-                    display: 'flex',
+                    display: 'flexed',
                     flexDirection: 'column',
                     justifyContent: 'center',
                   }}
